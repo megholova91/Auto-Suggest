@@ -42,7 +42,6 @@ export default class Autosuggest extends React.Component {
                         </div>}
                         <button className="search-button" type="submit"><SearchIcon /></button>
                     </div>
-
                 </div>
             </div>
         )

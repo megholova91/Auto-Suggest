@@ -41,6 +41,10 @@ body {
   color: #000; 
 }
 
+.links:hover {
+  background: #D3D3D3;
+}
+
 .search-button {
   height: 22px;
   width: 25px;
