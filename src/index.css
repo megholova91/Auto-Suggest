@@ -1,3 +1,8 @@
+#root {
+  height: 100%;
+  width: 100%;
+}
+
 html {
   height: 100%;
 }
@@ -25,6 +30,7 @@ body {
   max-height: 300px;
   overflow: hidden;
   overflow-y: auto;
+  margin-top: 22px;
 }
 
 .links {
@@ -43,4 +49,17 @@ body {
 
 .search-container {
   display: flex;
+}
+
+.auto-suggest {
+  height: 100%;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
 }
